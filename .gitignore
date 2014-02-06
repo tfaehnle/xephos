@@ -1,4 +1,5 @@
 /plugins/dynmap/web/tiles
+/plugins/dynmap/*.pending
 /logs
 *level.dat_old
 *session.lock
