@@ -1,0 +1,71 @@
+groups:
+  Default:
+    default: true
+    prefix: '[Guest]'
+    suffix: ''
+    options:
+      rank: '300'
+    permissions:
+    - multiverse.portal.access.*
+    - multiverse.access.world_nether
+    - multiverse.access.world_the_end
+    - multiverse.access.creative
+  Trusted:
+    prefix: ''
+    suffix: ''
+    options:
+      rank: '200'
+    permissions:
+    - multiverse.core.tp.self
+    - multiverse.core.spawn.self
+    - multiverse.core.list.*
+    inheritance:
+    - Default
+  Moderator:
+    prefix: ''
+    suffix: ''
+    options:
+      rank: '100'
+    permissions:
+    - multiverse.teleport.self.*
+    - multiverse.teleport.other.*
+    - multiverse.core.tp.*
+    - multiverse.portal.*
+    - bukkit.command.teleport
+    - bukkit.command.ban.player
+    - bukkit.command.unban.player
+    - bukkit.command.ban.list
+    inheritance:
+    - Trusted
+  Admin:
+    prefix: ''
+    suffix: ''
+    options:
+      rank: '2'
+    permissions:
+    - -mv.bypass.gamemode.*
+    - '*'
+    inheritance:
+    - Moderator
+users:
+  bob52287:
+    group:
+    - Admin
+  mjnuzz:
+    group:
+    - Moderator
+  greymalkin32:
+    group:
+    - Trusted
+  joeman957:
+    group:
+    - Trusted
+  TheCobra69:
+    group:
+    - Trusted
+  oprime5298:
+    group:
+    - Trusted
+  franman157933:
+    group:
+    - Trusted

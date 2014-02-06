@@ -1,0 +1,143 @@
+worlds:
+  world:
+    seed: 99048611
+    environment: NORMAL
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Terra
+      color: WHITE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: true
+    spawn:
+      x: 752.0552485701504
+      y: 64.0
+      z: 734.2692725112173
+      pitch: 19.440418
+      yaw: -51.55738
+      world: world
+    autoload: true
+    bedrespawn: true
+  world_nether:
+    seed: 99048611
+    environment: NETHER
+    type: NORMAL
+    hidden: false
+    alias:
+      name: Nether
+      color: RED
+    pvp: true
+    scale: 8.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: false
+    spawn:
+      x: 777.5
+      y: 63.0
+      z: 690.5
+      pitch: 0.0
+      yaw: 0.0
+      world: world_nether
+    autoload: true
+    bedrespawn: true
+  world_the_end:
+    seed: 99048611
+    environment: THE_END
+    type: NORMAL
+    hidden: false
+    alias:
+      name: The End
+      color: BLUE
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: true
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: SURVIVAL
+    keepspawninmemory: false
+    spawn:
+      x: 0.0
+      y: 63.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+      world: world_the_end
+    autoload: true
+    bedrespawn: true
+  creative:
+    seed: -7778437803107453974
+    environment: NORMAL
+    type: FLAT
+    hidden: false
+    alias:
+      name: Creative
+      color: GREEN
+    pvp: true
+    scale: 1.0
+    respawnworld: ''
+    allowweather: false
+    difficulty: EASY
+    animals:
+      spawn: true
+    monsters:
+      spawn: true
+      exceptions:
+      - slime
+    entryfee:
+      currency: -1
+      price: 0.0
+    hunger: true
+    autoheal: true
+    adjustspawn: true
+    portalform: ALL
+    gamemode: CREATIVE
+    keepspawninmemory: false
+    spawn:
+      x: 790.0
+      y: 4.0
+      z: -740.0
+      pitch: 0.0
+      yaw: 0.0
+      world: creative
+    autoload: true
+    bedrespawn: true
