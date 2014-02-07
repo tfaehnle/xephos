@@ -3,3 +3,4 @@
 /logs
 *level.dat_old
 *session.lock
+*.lck
